@@ -84,6 +84,7 @@ img {
 .align-center {
   text-align: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 .align-center h1 {
   font-weight: 700;
@@ -132,4 +133,16 @@ img {
   font-size: 19px;
   line-height: 22px;
   color: gray;
+}
+.seek-Allah {
+  display: flex;
+  justify-content: center;
+}
+.seek-img {
+  width: 350px;
+  height: 350px;
+  margin: 1%;
+  border-radius: 10px;
+  margin-top: 80px;
+  box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.3);
 }
