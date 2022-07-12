@@ -205,3 +205,45 @@ footer h3 {
   color: #e94b3cff;
   letter-spacing: 3px;
 }
+.subscribe-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fef4f5;
+  height: 200px;
+  width: 100%;
+  max-width: 50%;
+  margin-left: 25%;
+  margin-bottom: 100px;
+}
+.input-button {
+}
+label {
+  position: absolute;
+}
+input {
+  border: none;
+  padding: 15px;
+  width: 400px;
+}
+button {
+  border: none;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 150px;
+
+  background-color: #e94b3cff;
+  color: white;
+}
+label:hover {
+  border: 2px solid rgb(226, 217, 217);
+}
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #e94b3cff;
+  border: 1px solid gray;
+}
