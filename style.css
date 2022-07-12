@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(image/cow\ marker2.jpg);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.content-area {
+  color: white;
+  width: 40%;
+  padding-left: 10%;
+}
+.content-area h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 25px;
+}
+.content-area p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 10%;
+}
+.content-area a {
+  text-decoration: none;
+  color: white;
+  background-color: #e94b3cff;
+  padding: 15px 28px;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 3px;
+  border-radius: 6px;
+}
+.content-area a:hover {
+  background-color: white;
+  color: #e94b3cff;
+}
